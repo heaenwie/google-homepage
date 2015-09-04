@@ -34,6 +34,17 @@ li img {
 form .btn {
   padding: 10px;
   margin: 0 10px;
+  background-color:#f5f5f5;
+  border: none;
+  color: #757575;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  color: #000000;
+  border: 1px solid grey;
 }
 
 main {
@@ -50,13 +61,19 @@ main {
 }
 
 .search {
+  border: 1px solid #d3d3d3;
   background-image: url('img/download.png');
   background-position: right;
   background-repeat: no-repeat;
+  background-size: 30px;
   width: 40%;
   height: 40px;
   padding: 0px;
   margin: 20px;
+}
+
+.search:hover {
+  border: 1px solid #a3a3a3;
 }
 
 form {
